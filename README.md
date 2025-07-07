@@ -2,7 +2,7 @@
 
 3층 건물의 엘리베이터를 Arduino로 구현한 시뮬레이터입니다. LED와 버튼을 사용하여 실제 엘리베이터의 동작을 시각적으로 표현합니다.
 
-## 🏗️ 프로젝트 구조
+## 프로젝트 구조
 
 ```
 project-arduino-elevator/
@@ -13,7 +13,7 @@ project-arduino-elevator/
 └── README.md                      # 프로젝트 설명서
 ```
 
-## 🎯 주요 기능
+## 주요 기능
 
 ### 1. 3층 엘리베이터 시스템
 - **1층, 2층, 3층** 지원
@@ -30,7 +30,7 @@ project-arduino-elevator/
 - 방향 우선순위 기반 이동 (위쪽 호출 → 아래쪽 호출)
 - 호출이 없을 때 자동 정지
 
-## 🔧 하드웨어 구성
+## 하드웨어 구성
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9d52e7f8-d1ec-4636-8b5d-1e57ddbc3bb1">
@@ -60,7 +60,7 @@ project-arduino-elevator/
 - 3층: 6, 7번 핀
 ```
 
-## 🚀 동작 원리
+## 동작 원리
 
 ### 1. 초기화 (setup)
 - 모든 핀을 입력/출력 모드로 설정
@@ -119,7 +119,7 @@ bool call[3] = {false, false, false};  // 각 층 호출 상태
 bool isMoving = false;       // 이동 중 여부
 ```
 
-## 🛠️ 결과 동영상
+## 결과 동영상
 
 [![결과 동영상](https://img.youtube.com/vi/Zy11efJkeLI/0.jpg)](https://youtu.be/Zy11efJkeLI)
 
@@ -130,7 +130,7 @@ bool isMoving = false;       // 이동 중 여부
 #### Test Caes 3
 - 1층에 있는 엘리베이터가 있을 때 3층 호출 후 호출 취소
 
-## 📝 참고 자료
+## 참고 자료
 
 프로젝트 발표 자료: [Google Slides](https://docs.google.com/presentation/d/1vF044o_cKGuzGSuL9WXtFOcSOIH5x7EHHN8LDM4Cs_s/edit?usp=drive_link)
 
